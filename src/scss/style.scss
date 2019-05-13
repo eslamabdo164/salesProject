@@ -1,0 +1,65 @@
+// Project Colors
+$main_color : #FC4861 ;
+body {
+    font-family: 'Roboto', sans-serif;
+}
+// === Global Elements ===
+
+.btn-primary {
+    color: #fff;
+    background-color: $main_color;
+    border-color: $main_color;
+    cursor: pointer
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #fb1636;
+    border-color: #fb1636;
+}
+
+.lead {
+    color: #665967;
+    line-height: 2rem
+}
+
+h1 {
+    font-weight: 700;
+    color : #3d2c3a ;
+}
+// === END Global Elements ===
+
+#header {
+    .navbar-brand{
+        margin-right: 6rem;
+        margin-left: 0;
+    }
+ 
+    .bg-light {
+        background-color: #fff !important
+    }
+    hr#top {
+        margin-top: 30px;
+        margin-bottom: 3px;
+    }
+    hr#bottom {
+        margin-top: 3px;
+        margin-bottom: 0
+    }
+    a {
+        margin-right: 1rem;
+        margin-left: 2rem; 
+        text-decoration: none
+    }
+    margin-bottom: 7rem
+}
+
+
+#showcase {
+  
+    .lead {
+        margin-bottom: 70px;
+    }
+}
+
+
+

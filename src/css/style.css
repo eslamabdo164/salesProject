@@ -1,0 +1,42 @@
+body {
+  font-family: 'Roboto', sans-serif; }
+
+.btn-primary {
+  color: #fff;
+  background-color: #FC4861;
+  border-color: #FC4861;
+  cursor: pointer; }
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #fb1636;
+  border-color: #fb1636; }
+
+.lead {
+  color: #665967;
+  line-height: 2rem; }
+
+h1 {
+  font-weight: 700;
+  color: #3d2c3a; }
+
+#header {
+  margin-bottom: 7rem; }
+  #header .navbar-brand {
+    margin-right: 6rem;
+    margin-left: 0; }
+  #header .bg-light {
+    background-color: #fff !important; }
+  #header hr#top {
+    margin-top: 30px;
+    margin-bottom: 3px; }
+  #header hr#bottom {
+    margin-top: 3px;
+    margin-bottom: 0; }
+  #header a {
+    margin-right: 1rem;
+    margin-left: 2rem;
+    text-decoration: none; }
+
+#showcase .lead {
+  margin-bottom: 70px; }
