@@ -67,3 +67,13 @@ section {
 
 
 
+footer {
+    background-color: #F8F0EA;
+     height: 50vh;
+    a {
+        color: #3d2c3a
+    }
+    a:hover { 
+        color: $main_color
+    }
+}

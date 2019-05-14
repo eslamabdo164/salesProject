@@ -43,3 +43,11 @@ section {
 
 #showcase .lead {
   margin-bottom: 70px; }
+
+footer {
+  background-color: #F8F0EA;
+  height: 50vh; }
+  footer a {
+    color: #3d2c3a; }
+  footer a:hover {
+    color: #FC4861; }
