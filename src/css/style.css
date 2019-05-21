@@ -41,8 +41,10 @@ section {
     margin-left: 2rem;
     text-decoration: none; }
 
-#showcase .lead {
-  margin-bottom: 70px; }
+#showcase {
+  margin-top: 10rem; }
+  #showcase .lead {
+    margin-bottom: 70px; }
 
 footer {
   background-color: #F8F0EA;
@@ -51,3 +53,13 @@ footer {
     color: #3d2c3a; }
   footer a:hover {
     color: #FC4861; }
+
+/* == Mobile Devices Styles == */
+@media all and (max-device-width: 480px) {
+  h1 {
+    font-weight: 200;
+    color: #3d2c3a; }
+  section {
+    height: auto; }
+  footer {
+    height: auto; } }

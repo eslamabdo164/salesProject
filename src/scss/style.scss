@@ -54,12 +54,12 @@ section {
         margin-left: 2rem; 
         text-decoration: none
     }
-    margin-bottom: 7rem
+    margin-bottom: 7rem;
 }
 
 
 #showcase {
-  
+    margin-top: 10rem;
     .lead {
         margin-bottom: 70px;
     }
@@ -77,3 +77,21 @@ footer {
         color: $main_color
     }
 }
+
+/* == Mobile Devices Styles == */
+
+@media all and (max-device-width:480px) {
+    // Golbal //
+    h1 {
+        font-weight: 200;
+        color : #3d2c3a ;
+    }
+    section {
+        height: auto;
+    }
+    footer {
+        height: auto;
+    }
+}
+
+
